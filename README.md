@@ -8,3 +8,5 @@ Style transfer relies on separating the content and style of an image. Given one
 
 * objects and their arrangement are similar to that of the **content image**
 * style, colors, and textures are similar to that of the **style image**
+
+In this notebook, I have used a pre-trained VGG19 Net to extract content or style features from a passed in image. I've then formalize the idea of content and style losses and use those to iteratively update the target image until I get a result that I want.
